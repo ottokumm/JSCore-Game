@@ -3,6 +3,6 @@ Game application built on the HTML5 canvas technology with usage of Object Orien
 Environment: HTML/HTML5, CSS/CSS3, JavaScript <br /><br />
 Tools: MS Visual Studio Code
 # Controls
-Movement - Arrows <br />
+Movement - Arrows <br /><br />
 Fire - Spacebar
 
