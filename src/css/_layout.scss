@@ -1,0 +1,84 @@
+*{
+	box-sizing:border-box;
+}
+.game-window {
+    position:relative;
+}
+
+
+.game-canvas {
+	display:block;
+ 	margin-left:auto;
+ 	margin-right:auto;
+}
+
+.modal {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+    width:584px;
+    margin-left:-292px;
+    
+}
+
+.modal.toggle-modal {
+        display: block;
+}
+
+.modal-default {
+    background: #000000;
+    background-color: rgba(0,0,0,0.8);
+    font-family: ArcadeClassic;
+}
+
+.modal-content{
+    text-align:center;
+}
+
+.modal-default .modal-header {
+    color:	#FFFF00;
+    font-size:5rem;
+}
+
+.modal-default .modal-ask {
+    color:	#DC143C;
+    display:block;
+    background-color:#FFFFFF;
+    font-family: ArcadeClassic;
+    font-size:2rem;
+    cursor:pointer;
+    outline:none;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.modal-default .modal-ask:hover {
+    color:#FFFFFF;
+    background-color:#404040	;
+    font-family: ArcadeClassic;
+    font-size:2rem;
+    cursor:pointer;
+}
+
+.modal-default .modal-header {
+  color: #FFFF00;
+  font-size: 5rem; 
+}
+
+.modal-default .modal-message {
+color: #FFFF00;
+font-size: 2rem; 
+}
+
+@font-face {
+   font-family: ArcadeClassic;
+   src: url(../content/fonts/arcade.ttf);
+}
+
+h1 {
+    font-family: ArcadeClassic;
+    font-size:5rem;
+}

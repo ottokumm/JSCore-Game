@@ -1,0 +1,33 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+    <title>SkyForce</title>
+    <meta charset="utf-8" />
+    <!-- inject:css -->
+        <link rel="stylesheet" href="css/site.css">
+    <!-- endinject-->
+</head>
+
+<body>
+    <p id="note"></p>
+    <div class="game-window">
+        <canvas class="game-canvas" id="gamefield"></canvas>
+        <div id="modalId" class="modal modal-default">
+            <div class="modal-content">
+                <h2 class="modal-header">Game Over</h2>
+                <button type="button" class="modal-ask" id='retryBtnId'>Retry</button>
+                <span class="modal-message" id="modalContentId"></span>
+            </div>
+        </div>
+    </div>
+    <script src="js/images.js"></script>
+    <script src="js/abstract.js"></script>
+    <script src="js/constants.js"></script>
+    <script src="js/entities.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="js/handlers.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
